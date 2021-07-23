@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saeful Alimi</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--sidebar-->
+    <input type="checkbox" id="check">
+    <div class="sidebar">
+        <ul>
+            <li><a href="#about" >About</a> </li>
+            <li><a href="#skills" >Skills</a> </li>
+            <li><a href="#curriculum vitae" >Curriculum Vitae</a> </li>
+            <li><a href="#contact" >Contact </a> </li>
+        </ul>
+    </div>
+
+    <!--bagian header-->
+    <header>
+        <div class="container">
+        <h1><a href="">Saeful Alimi</a></h1>
+        <ul>
+            <li><a href="#about" >About</a> </li>
+            <li><a href="#skills" >Skills</a> </li>
+            <li><a href="#curriculum vitae" >Curriculum Vitae</a> </li>
+            <li><a href="#contact" >Contact </a> </li>
+        </ul>
+        <!--menu mobile-->
+        <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+    </div>
+    </header>
+    <!--bagian banner-->
+    <section class="banner">
+        <div class="container">
+            <p><img class="rounded-image" img src="img/saeful.png"/> 
+            <h2>Assalamu'alaikum warahmatullahi wabarakatuh<br>
+                Saya adalah seorang <span class="efek-ngetik"></span></h2>
+            <p>Selamat datang di Website Curriculum Vitae Saya !</p>
+            <p></p>
+        </div>
+    </section>
+    <!--bagian about-->
+    <section id="about">
+        <div class="container">
+            <h3>About</h3>
+            <P>I have a passion to help others like myself. I was a student who dropped out of school because of my parent’s financial situation. YCAB Foundation helped me to finish high school in the Rumah Belajar. I went on to complete a Bachelors degree in Computer Information Technology at Universitas Esa Unggul. Since graduation, I have been employed at YCAB in the IT dept and recently in the program department taking care of the alumni and scholarship students.</P>
+        </div>
+    </section>
+    <!--bagian skill-->
+    <section id="skills">
+        <div class="container">
+            <h3>Skills Summary</h3>
+            <h4>IT Maintenance & Troubleshoot</h4>
+            <div class="bar">
+                <span class="nilai it">95%</span>
+            </div>
+            <h4>Software Hardware Installation</h4>
+            <div class="bar">
+                <span class="nilai sh">90%</span>
+            </div>
+            <h4>Photografer</h4>
+            <div class="bar">
+                <span class="nilai dg">85%</span>
+            </div>
+            <h4>Photoshop & Adobe Premier Pro</h4>
+            <div class="bar">
+                <span class="nilai pa">80%</span>
+            </div>
+    </section>
+    <!--bagian curriculum vitae-->
+    <section id="curriculum vitae">
+        <div class="container">
+            <h3>Curriculum Vitae</h3>
+            <div class="col-4">
+                <a href= "personal.html";>
+                    <img src="img/cv.jpg">
+                    <span>Personal Details</span>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href= "eduction.html";>
+                    <img src="img/ed.jpg">
+                    <span>Education History</span>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href= "work.html";>
+                    <img src="img/we.jpg">
+                    <span>Work Experience</span>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href= "cetifikat.html";>
+                    <img src="img/cs.jpg">
+                    <span>Certification</span>
+                </a>
+            </div>
+    </section>
+    <!--bagian contact-->
+    <section id="contact">
+        <div class="container">
+            <h3>Contact</h3>
+            <p style="text-align: center; margin-left: -45px;">
+                <a href="https://wa.me/083874365638">
+                    <i style="font-size: 30px;" class="fab fa-whatsapp-square"></i>
+                </a>
+                <a href="https://web.facebook.com/saefulalimi">
+                    <i style="font-size: 30px;" class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/saefulalimi/">
+                    <i style="font-size: 30px;" class="fab fa-instagram-square"></i>
+                </a>
+            </p>
+    </section>
+    <!--bagian feedback-->
+    <section id="feedback">
+        <div class="container">
+            <h3>Feedback</h3>
+            <body>
+                <form onsubmit="myFunction()"> 
+                    Nama    : <input type="text" name="nama"><br/>
+                    Email   : <input type="text" name="email"></br/>
+                    Pesan   : <textarea>    </textarea>
+                    <br/>
+                    <input type="submit" value="kirim">
+                </form>
+            </body>
+            <script>
+                function myFunction() {
+                alert("Sukses Submit");
+                }
+            </script>
+    </section>
+    <!--bagian footer-->
+    <footer>
+        <div class="container">
+            <small>Copyright &copy; 2021-Saeful Alimi</small>
+        </div>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
